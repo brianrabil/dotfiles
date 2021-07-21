@@ -3,8 +3,11 @@
 # by Brian Rabil
 ############################################
 
-# Init znap Package Manager
-source ~/.config/zsh_plugins/zsh-snap/znap.zsh
+############################################
+# Aliases
+############################################
+
+alias ls="k -a"
 
 
 ############################################
@@ -12,6 +15,10 @@ source ~/.config/zsh_plugins/zsh-snap/znap.zsh
 # Use `znap source` to load your plugins.
 ############################################
 
+# Init znap Package Manager
+source ~/.config/zsh_plugins/zsh-snap/znap.zsh
+
+# Plugins
 znap source b4b4r07/enhancd
 znap source zsh-users/zsh-autosuggestions
 znap source marlonrichert/zsh-edit
