@@ -1,0 +1,5 @@
+
+device_id=17
+option_id=323
+
+xinput set-prop $device_id $option_id 1
