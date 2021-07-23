@@ -37,9 +37,18 @@ window:
 
 font:
   normal:
-    family: "Fira Code"
+    family: "Fira Code Nerd Font"
     style: Regular
-  size: 9
+  bold:
+    family: "Fira Code Nerd Font"
+    style: Medium
+  italic:
+    family: "Fira Code Nerd Font"
+    style: Italic
+  bold_italic:
+    family: "Fira Code Nerd Font"
+    style: Bold Italic
+  size: 7.0
 
 # Dark github Alacritty Colors
 colors:
