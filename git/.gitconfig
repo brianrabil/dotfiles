@@ -6,3 +6,5 @@
 [alias]
 	history = log --graph --stat --decorate
 	ls = log --oneline
+[credential]
+	helper = cache
