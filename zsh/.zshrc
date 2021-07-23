@@ -9,6 +9,7 @@
 
 alias ls="k -a"
 alias vim="nvim"
+alias rstudio="rstudio-bin"
 
 ############################################
 # Plugins
