@@ -7,7 +7,7 @@
 # Aliases
 ############################################
 
-alias ls="k -a"
+alias ls="k"
 alias vim="nvim"
 alias rstudio="rstudio-bin"
 
