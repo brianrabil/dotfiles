@@ -526,8 +526,21 @@ EOF
 
 
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Conquer of Completion (CoC)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-
-
+let g:coc_global_extensions = [
+			\ 'coc-json', 
+			\ 'coc-git', 
+			\ 'coc-prettier', 
+			\ 'coc-sh',
+			\ 'coc-css',
+			\ 'coc-html',
+			\ 'coc-tsserver',
+			\ 'coc-markdownlint',
+			\ 'coc-pyright',
+			\ 'coc-rust-analyzer',
+		\ ]
 
 

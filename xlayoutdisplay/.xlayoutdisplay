@@ -5,14 +5,15 @@
 
 # order of outputs
 order=DP-1
+order=eDP-1
 # order=HDMI-0
 
 # primary output
-#primary=eDP-0
+primary=DP-1
 
 # suppress output
 #quiet=true
 
 # override calculated DPI
-#dpi=192
+# dpi=144
 

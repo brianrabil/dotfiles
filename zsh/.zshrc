@@ -3,6 +3,14 @@
 # by Brian Rabil
 ############################################
 
+# exec /home/bdr/.cargo/bin/nu
+
+############################################
+# ENV 
+############################################
+
+
+
 ############################################
 # Aliases
 ############################################
@@ -10,6 +18,7 @@
 alias ls="k"
 alias vim="nvim"
 alias rstudio="rstudio-bin"
+alias nes="fceux"
 
 ############################################
 # Plugins
@@ -44,19 +53,11 @@ znap prompt
 # prompt spaceship
 
 
-############################################
-# Vars
-############################################
 
 ZSH_AUTOSUGGEST_STRATEGY=( history )
 ZSH_HIGHLIGHT_HIGHLIGHTERS=( main brackets )
 
-
-############################################
-# Startship Prompt
-############################################
-
-# SPACESHIP_PROMPT_ADD_NEWLINE=true
 # SPACESHIP_CHAR_SYMBOL=" "
-# SPACESHIP_TIME_SHOW=true
-# SPACESHIP_TIME_COLOR="gray"
+
+
+
