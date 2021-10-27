@@ -28,16 +28,9 @@ Install script coming soon.
 
 In the mean time, follow these steps:
 
-1. Make a `.dotfiles` folder in your home directory.
+1.  Clone this repo to your home directory.
 
 ```bash
-mkdir ~/.dotfiles
-```
-
-2. Clone this repo to the .dotfiles folder.
-
-```bash
-cd ~/.dotfiles
 git clone https://github.com/BrianRabil/.dotfiles.git
 ```
 
