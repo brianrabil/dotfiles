@@ -2,7 +2,7 @@
 
 This repo is a work in progress, but is in a usable state. These dotfiles are optimized for Arch Linux + i3, but many of them will work on any platform.
 
-### Included Dotfiles
+## Included Dotfiles
 
 Application      |
 -----------------|
@@ -22,9 +22,9 @@ xLayoutDisplay   |
 xProfile         |
 zsh              |
 
-### Installation
+## Installation
 
-Install script coming soon.
+*Install script coming soon.*
 
 In the mean time, follow these steps:
 
@@ -34,7 +34,7 @@ In the mean time, follow these steps:
 git clone https://github.com/BrianRabil/.dotfiles.git
 ```
 
-3. Unstow the dotfiles you would like to use.
+2. Unstow the dotfiles you would like to use.
 
 ```bash
 cd ~/.dotfiles
@@ -44,7 +44,7 @@ stow zsh
 // and so on...
 ```
 
-Easy as that. GNU Stow will create a symlink to the appropriate location.
+Easy as that. GNU Stow will create symlinks to the appropriate locations.
 
-4. Enjoy! 😉 
+3. Enjoy! 😉 
 
