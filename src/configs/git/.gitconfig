@@ -1,0 +1,99 @@
+[user]
+	name = Brian Rabil
+	email = brianrabil@outlook.com
+
+[core]
+	editor = nvim
+	autocrlf = input  # Convert CRLF to LF on commit
+	pager = less -FRX  # Configure less for paging
+
+[alias]
+	# Common aliases
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	diff = diff
+	df = diff
+	dc = diff --cached
+	logs = log --oneline --graph --decorate --all
+
+	# Improved log history
+	hist = log --graph --pretty=format:'%C(yellow)%h%Creset - %C(bold blue)%an%Creset, %C(green)%ar%Creset : %Creset%s%C(yellow)%d%Creset' --abbrev-commit --date=relative
+
+	# Commit with message
+	cm = commit -m
+
+	# Amend last commit
+	amend = commit --amend
+
+	# Show last commit
+	last = log -1 HEAD
+
+	# Show branches
+	bra = branch -a
+
+	# Delete branch
+	bdel = branch -d
+
+	# Force delete branch
+	bdf = branch -D
+
+	# Fetch and prune
+	fp = fetch --prune
+
+	# Stash operations
+	stash-list = stash list
+	stash-save = stash save
+	stash-pop = stash pop
+	stash-drop = stash drop
+
+	# Clean untracked files
+	clean = clean -fd
+
+	# Pull with rebase
+	pl = pull --rebase
+
+	# Show all remotes
+	remotes = remote -v
+
+	# Show git aliases
+	alias = !git config -l | grep ^alias | cut -c 7-
+
+[credential]
+	helper = cache
+
+[diff]
+	tool = nvimdiff  # Set Neovim as diff tool
+
+[merge]
+	tool = nvimdiff  # Set Neovim as merge tool
+	conflictstyle = diff3  # Show context in conflict
+
+[interactive]
+	diffFilter = delta  # Use delta for diffs
+
+[delta]
+	navigate = true  # Use n and N to move between diff sections
+	line-numbers = true  # Show line numbers
+
+[color]
+	ui = true  # Enable colored output
+
+[init]
+	defaultBranch = main  # Set default branch name to 'main'
+
+[pull]
+	rebase = true  # Rebase by default when pulling
+
+[rerere]
+	enabled = true  # Enable reuse recorded resolution
+
+[push]
+	default = simple  # Use simple push (current branch)
+
+[http]
+	sslVerify = true  # Verify SSL by default
+
+[gc]
+	auto = 256  # Run gc automatically when there are too many loose objects
